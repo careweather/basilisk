@@ -17,7 +17,8 @@ Basilisk ships a curated set of simulation modules covering common
 astrodynamics tasks.  **Plugins** let you extend Basilisk with your own
 C++ modules—new dynamics models, custom environment models, proprietary
 algorithms, or research prototypes—without modifying or recompiling
-Basilisk itself.
+Basilisk itself.  Modules can also be implemented in Rust (experimental) —
+see :ref:`writingRustPlugins`.
 
 Plugins vs. External Modules
 -----------------------------

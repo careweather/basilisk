@@ -229,6 +229,7 @@ Related Publications
    Overview <Plugins/overview>
    Install <Plugins/installing>
    Writing a Plugin <Plugins/writing>
+   Writing a Rust Plugin <Plugins/writingRust>
 
 .. toctree::
    :caption: BSK_RL:

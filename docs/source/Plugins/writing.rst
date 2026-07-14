@@ -16,6 +16,11 @@ Basilisk modules — see :ref:`cppModules` and :ref:`cModules` for how to
 write the module itself.  This page covers only the plugin-specific
 packaging: the project layout, ``CMakeLists.txt``, and ``pyproject.toml``.
 
+.. note::
+
+   Modules can also be implemented in Rust instead of C++/C — see
+   :ref:`writingRustPlugins` (experimental).
+
 A complete working example is in the
 `bsk-sdk repository <https://github.com/AVSLab/bsk_sdk/tree/master/examples/custom-atm-plugin>`_.
 
